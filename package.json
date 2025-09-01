@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/utils/index.js"
   },
   "keywords": [
     "js",
@@ -13,5 +13,10 @@
   "author": "Shreyash Mundokar",
   "license": "ISC",
   "description": "",
-  "type" : "module"
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
 }
